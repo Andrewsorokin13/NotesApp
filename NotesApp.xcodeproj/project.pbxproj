@@ -9,23 +9,49 @@
 /* Begin PBXBuildFile section */
 		AF8C9AE62891AD4800C2DC55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C9AE52891AD4800C2DC55 /* AppDelegate.swift */; };
 		AF8C9AE82891AD4800C2DC55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C9AE72891AD4800C2DC55 /* SceneDelegate.swift */; };
-		AF8C9AEA2891AD4800C2DC55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C9AE92891AD4800C2DC55 /* ViewController.swift */; };
+		AF8C9AEA2891AD4800C2DC55 /* NotesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C9AE92891AD4800C2DC55 /* NotesCollectionViewController.swift */; };
 		AF8C9AED2891AD4800C2DC55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8C9AEB2891AD4800C2DC55 /* Main.storyboard */; };
 		AF8C9AF02891AD4800C2DC55 /* NotesApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF8C9AEE2891AD4800C2DC55 /* NotesApp.xcdatamodeld */; };
 		AF8C9AF22891AD4900C2DC55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8C9AF12891AD4900C2DC55 /* Assets.xcassets */; };
 		AF8C9AF52891AD4900C2DC55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8C9AF32891AD4900C2DC55 /* LaunchScreen.storyboard */; };
+		AF8C9AFD2891ADD600C2DC55 /* NotesCollection+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C9AFC2891ADD600C2DC55 /* NotesCollection+DataSource.swift */; };
+		AF8C9B002891AE1C00C2DC55 /* DetailNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C9AFF2891AE1C00C2DC55 /* DetailNotesViewController.swift */; };
+		AF8C9B022891AE3F00C2DC55 /* DetailNotes+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C9B012891AE3F00C2DC55 /* DetailNotes+Row.swift */; };
+		AF8C9B042891AE7200C2DC55 /* DetailNotes+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C9B032891AE7200C2DC55 /* DetailNotes+Section.swift */; };
+		AF8C9B092891AF0900C2DC55 /* ExtensionArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C9B082891AF0900C2DC55 /* ExtensionArray.swift */; };
+		AF8C9B0C2891AF7C00C2DC55 /*  UIView+SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C9B0B2891AF7C00C2DC55 /*  UIView+SubView.swift */; };
+		AF8C9B0E2891AFAF00C2DC55 /* TextViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C9B0D2891AFAF00C2DC55 /* TextViewContentView.swift */; };
+		AF8C9B102891AFEC00C2DC55 /* ExtensionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C9B0F2891AFEC00C2DC55 /* ExtensionDate.swift */; };
+		AF8C9B122891B24500C2DC55 /* Detail+ContentConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C9B112891B24500C2DC55 /* Detail+ContentConfig.swift */; };
+		AF8C9B182892B44600C2DC55 /* NotesCollection+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C9B172892B44600C2DC55 /* NotesCollection+CoreData.swift */; };
+		AF8C9B1C2894020800C2DC55 /* NotesCollection+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C9B1B2894020800C2DC55 /* NotesCollection+Action.swift */; };
+		AF8C9B1E2894057600C2DC55 /* DetailNotes+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C9B1D2894057600C2DC55 /* DetailNotes+Action.swift */; };
+		AF8C9B23289485D300C2DC55 /* extensionTextViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C9B22289485D300C2DC55 /* extensionTextViewContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF8C9AE22891AD4800C2DC55 /* NotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8C9AE52891AD4800C2DC55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF8C9AE72891AD4800C2DC55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF8C9AE92891AD4800C2DC55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF8C9AE92891AD4800C2DC55 /* NotesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesCollectionViewController.swift; sourceTree = "<group>"; };
 		AF8C9AEC2891AD4800C2DC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF8C9AEF2891AD4800C2DC55 /* NotesApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotesApp.xcdatamodel; sourceTree = "<group>"; };
 		AF8C9AF12891AD4900C2DC55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF8C9AF42891AD4900C2DC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF8C9AF62891AD4900C2DC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8C9AFC2891ADD600C2DC55 /* NotesCollection+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotesCollection+DataSource.swift"; sourceTree = "<group>"; };
+		AF8C9AFF2891AE1C00C2DC55 /* DetailNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNotesViewController.swift; sourceTree = "<group>"; };
+		AF8C9B012891AE3F00C2DC55 /* DetailNotes+Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailNotes+Row.swift"; sourceTree = "<group>"; };
+		AF8C9B032891AE7200C2DC55 /* DetailNotes+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailNotes+Section.swift"; sourceTree = "<group>"; };
+		AF8C9B082891AF0900C2DC55 /* ExtensionArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionArray.swift; sourceTree = "<group>"; };
+		AF8C9B0B2891AF7C00C2DC55 /*  UIView+SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " UIView+SubView.swift"; sourceTree = "<group>"; };
+		AF8C9B0D2891AFAF00C2DC55 /* TextViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewContentView.swift; sourceTree = "<group>"; };
+		AF8C9B0F2891AFEC00C2DC55 /* ExtensionDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDate.swift; sourceTree = "<group>"; };
+		AF8C9B112891B24500C2DC55 /* Detail+ContentConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Detail+ContentConfig.swift"; sourceTree = "<group>"; };
+		AF8C9B172892B44600C2DC55 /* NotesCollection+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotesCollection+CoreData.swift"; sourceTree = "<group>"; };
+		AF8C9B1B2894020800C2DC55 /* NotesCollection+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotesCollection+Action.swift"; sourceTree = "<group>"; };
+		AF8C9B1D2894057600C2DC55 /* DetailNotes+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailNotes+Action.swift"; sourceTree = "<group>"; };
+		AF8C9B22289485D300C2DC55 /* extensionTextViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionTextViewContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +84,77 @@
 		AF8C9AE42891AD4800C2DC55 /* NotesApp */ = {
 			isa = PBXGroup;
 			children = (
-				AF8C9AE52891AD4800C2DC55 /* AppDelegate.swift */,
-				AF8C9AE72891AD4800C2DC55 /* SceneDelegate.swift */,
-				AF8C9AE92891AD4800C2DC55 /* ViewController.swift */,
+				AF8C9B062891AEF400C2DC55 /* Delegate */,
+				AF8C9B072891AEFF00C2DC55 /* Model */,
+				AF8C9B0A2891AF2D00C2DC55 /* MassiveViewController */,
 				AF8C9AEB2891AD4800C2DC55 /* Main.storyboard */,
 				AF8C9AF12891AD4900C2DC55 /* Assets.xcassets */,
 				AF8C9AF32891AD4900C2DC55 /* LaunchScreen.storyboard */,
 				AF8C9AF62891AD4900C2DC55 /* Info.plist */,
-				AF8C9AEE2891AD4800C2DC55 /* NotesApp.xcdatamodeld */,
 			);
 			path = NotesApp;
+			sourceTree = "<group>";
+		};
+		AF8C9AFE2891ADFB00C2DC55 /* NotesListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AF8C9AE92891AD4800C2DC55 /* NotesCollectionViewController.swift */,
+				AF8C9AFC2891ADD600C2DC55 /* NotesCollection+DataSource.swift */,
+				AF8C9B172892B44600C2DC55 /* NotesCollection+CoreData.swift */,
+				AF8C9B1B2894020800C2DC55 /* NotesCollection+Action.swift */,
+			);
+			path = NotesListViewController;
+			sourceTree = "<group>";
+		};
+		AF8C9B052891AEDA00C2DC55 /* DetailNoteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AF8C9AFF2891AE1C00C2DC55 /* DetailNotesViewController.swift */,
+				AF8C9B012891AE3F00C2DC55 /* DetailNotes+Row.swift */,
+				AF8C9B032891AE7200C2DC55 /* DetailNotes+Section.swift */,
+				AF8C9B112891B24500C2DC55 /* Detail+ContentConfig.swift */,
+				AF8C9B1D2894057600C2DC55 /* DetailNotes+Action.swift */,
+			);
+			path = DetailNoteViewController;
+			sourceTree = "<group>";
+		};
+		AF8C9B062891AEF400C2DC55 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				AF8C9AE52891AD4800C2DC55 /* AppDelegate.swift */,
+				AF8C9AE72891AD4800C2DC55 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		AF8C9B072891AEFF00C2DC55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF8C9AEE2891AD4800C2DC55 /* NotesApp.xcdatamodeld */,
+				AF8C9B082891AF0900C2DC55 /* ExtensionArray.swift */,
+				AF8C9B0F2891AFEC00C2DC55 /* ExtensionDate.swift */,
+				AF8C9B0B2891AF7C00C2DC55 /*  UIView+SubView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF8C9B0A2891AF2D00C2DC55 /* MassiveViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AF8C9B212894854C00C2DC55 /* TextViewContent */,
+				AF8C9AFE2891ADFB00C2DC55 /* NotesListViewController */,
+				AF8C9B052891AEDA00C2DC55 /* DetailNoteViewController */,
+			);
+			path = MassiveViewController;
+			sourceTree = "<group>";
+		};
+		AF8C9B212894854C00C2DC55 /* TextViewContent */ = {
+			isa = PBXGroup;
+			children = (
+				AF8C9B0D2891AFAF00C2DC55 /* TextViewContentView.swift */,
+				AF8C9B22289485D300C2DC55 /* extensionTextViewContent.swift */,
+			);
+			path = TextViewContent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +228,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF8C9AEA2891AD4800C2DC55 /* ViewController.swift in Sources */,
+				AF8C9B092891AF0900C2DC55 /* ExtensionArray.swift in Sources */,
+				AF8C9B102891AFEC00C2DC55 /* ExtensionDate.swift in Sources */,
+				AF8C9B042891AE7200C2DC55 /* DetailNotes+Section.swift in Sources */,
+				AF8C9AEA2891AD4800C2DC55 /* NotesCollectionViewController.swift in Sources */,
 				AF8C9AE62891AD4800C2DC55 /* AppDelegate.swift in Sources */,
+				AF8C9B1C2894020800C2DC55 /* NotesCollection+Action.swift in Sources */,
 				AF8C9AE82891AD4800C2DC55 /* SceneDelegate.swift in Sources */,
+				AF8C9B022891AE3F00C2DC55 /* DetailNotes+Row.swift in Sources */,
+				AF8C9B0E2891AFAF00C2DC55 /* TextViewContentView.swift in Sources */,
+				AF8C9B122891B24500C2DC55 /* Detail+ContentConfig.swift in Sources */,
 				AF8C9AF02891AD4800C2DC55 /* NotesApp.xcdatamodeld in Sources */,
+				AF8C9B1E2894057600C2DC55 /* DetailNotes+Action.swift in Sources */,
+				AF8C9AFD2891ADD600C2DC55 /* NotesCollection+DataSource.swift in Sources */,
+				AF8C9B182892B44600C2DC55 /* NotesCollection+CoreData.swift in Sources */,
+				AF8C9B002891AE1C00C2DC55 /* DetailNotesViewController.swift in Sources */,
+				AF8C9B0C2891AF7C00C2DC55 /*  UIView+SubView.swift in Sources */,
+				AF8C9B23289485D300C2DC55 /* extensionTextViewContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
